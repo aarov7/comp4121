@@ -1,419 +1,0 @@
-
-ﬁ•src/amyc/parsing/Tokens.scala*%
-amyc/parsing/Token# îÄ*TokenÄ*0
-amyc/parsing/Token#`<init>`(). Ä@*<init>Ä*/
-amyc/parsing/Token#toString().*toStringÄ*#
-amyc/parsing/Token.
- *TokenÄ*9
- amyc/parsing/Token.KeywordToken# àÅ*KeywordTokenÄ*=
-+amyc/parsing/Token.KeywordToken#`<init>`(). Ä@*<init>Ä*C
-2amyc/parsing/Token.KeywordToken#`<init>`().(value) Ä*valueÄ*7
-&amyc/parsing/Token.KeywordToken#value. Ä*valueÄ*4
-'amyc/parsing/Token.KeywordToken#copy().*copyÄ*<
-.amyc/parsing/Token.KeywordToken#copy().(value)*valueÄ*H
-1amyc/parsing/Token.KeywordToken#copy$default$1().*copy$default$1Ä*:
-*amyc/parsing/Token.KeywordToken#ordinal().*ordinalÄ*0
-%amyc/parsing/Token.KeywordToken#_1().*_1Ä*7
- amyc/parsing/Token.KeywordToken.
- *KeywordTokenÄ*6
-(amyc/parsing/Token.KeywordToken.apply().*applyÄ*=
-/amyc/parsing/Token.KeywordToken.apply().(value)*valueÄ*:
-*amyc/parsing/Token.KeywordToken.unapply().*unapplyÄ*;
-/amyc/parsing/Token.KeywordToken.unapply().(x$1)*x$1Ä*<
-+amyc/parsing/Token.KeywordToken.toString().*toStringÄ*?
-#amyc/parsing/Token.IdentifierToken# àÅ*IdentifierTokenÄ*@
-.amyc/parsing/Token.IdentifierToken#`<init>`(). Ä@*<init>Ä*D
-4amyc/parsing/Token.IdentifierToken#`<init>`().(name) Ä*nameÄ*8
-(amyc/parsing/Token.IdentifierToken#name. Ä*nameÄ*7
-*amyc/parsing/Token.IdentifierToken#copy().*copyÄ*=
-0amyc/parsing/Token.IdentifierToken#copy().(name)*nameÄ*K
-4amyc/parsing/Token.IdentifierToken#copy$default$1().*copy$default$1Ä*=
--amyc/parsing/Token.IdentifierToken#ordinal().*ordinalÄ*3
-(amyc/parsing/Token.IdentifierToken#_1().*_1Ä*=
-#amyc/parsing/Token.IdentifierToken.
- *IdentifierTokenÄ*9
-+amyc/parsing/Token.IdentifierToken.apply().*applyÄ*>
-1amyc/parsing/Token.IdentifierToken.apply().(name)*nameÄ*=
--amyc/parsing/Token.IdentifierToken.unapply().*unapplyÄ*>
-2amyc/parsing/Token.IdentifierToken.unapply().(x$1)*x$1Ä*?
-.amyc/parsing/Token.IdentifierToken.toString().*toStringÄ*;
-!amyc/parsing/Token.PrimTypeToken# àÅ*PrimTypeTokenÄ*>
-,amyc/parsing/Token.PrimTypeToken#`<init>`(). Ä@*<init>Ä*D
-3amyc/parsing/Token.PrimTypeToken#`<init>`().(value) Ä*valueÄ*8
-'amyc/parsing/Token.PrimTypeToken#value. Ä*valueÄ*5
-(amyc/parsing/Token.PrimTypeToken#copy().*copyÄ*=
-/amyc/parsing/Token.PrimTypeToken#copy().(value)*valueÄ*I
-2amyc/parsing/Token.PrimTypeToken#copy$default$1().*copy$default$1Ä*;
-+amyc/parsing/Token.PrimTypeToken#ordinal().*ordinalÄ*1
-&amyc/parsing/Token.PrimTypeToken#_1().*_1Ä*9
-!amyc/parsing/Token.PrimTypeToken.
- *PrimTypeTokenÄ*7
-)amyc/parsing/Token.PrimTypeToken.apply().*applyÄ*>
-0amyc/parsing/Token.PrimTypeToken.apply().(value)*valueÄ*;
-+amyc/parsing/Token.PrimTypeToken.unapply().*unapplyÄ*<
-0amyc/parsing/Token.PrimTypeToken.unapply().(x$1)*x$1Ä*=
-,amyc/parsing/Token.PrimTypeToken.toString().*toStringÄ*7
-amyc/parsing/Token.IntLitToken# àÅ*IntLitTokenÄ*<
-*amyc/parsing/Token.IntLitToken#`<init>`(). Ä@*<init>Ä*B
-1amyc/parsing/Token.IntLitToken#`<init>`().(value) Ä*valueÄ*6
-%amyc/parsing/Token.IntLitToken#value. Ä*valueÄ*3
-&amyc/parsing/Token.IntLitToken#copy().*copyÄ*;
--amyc/parsing/Token.IntLitToken#copy().(value)*valueÄ*G
-0amyc/parsing/Token.IntLitToken#copy$default$1().*copy$default$1Ä*9
-)amyc/parsing/Token.IntLitToken#ordinal().*ordinalÄ*/
-$amyc/parsing/Token.IntLitToken#_1().*_1Ä*5
-amyc/parsing/Token.IntLitToken.
- *IntLitTokenÄ*5
-'amyc/parsing/Token.IntLitToken.apply().*applyÄ*<
-.amyc/parsing/Token.IntLitToken.apply().(value)*valueÄ*9
-)amyc/parsing/Token.IntLitToken.unapply().*unapplyÄ*:
-.amyc/parsing/Token.IntLitToken.unapply().(x$1)*x$1Ä*;
-*amyc/parsing/Token.IntLitToken.toString().*toStringÄ*=
-"amyc/parsing/Token.StringLitToken# àÅ*StringLitTokenÄ*?
--amyc/parsing/Token.StringLitToken#`<init>`(). Ä@*<init>Ä*E
-4amyc/parsing/Token.StringLitToken#`<init>`().(value) Ä*valueÄ*9
-(amyc/parsing/Token.StringLitToken#value. Ä*valueÄ*6
-)amyc/parsing/Token.StringLitToken#copy().*copyÄ*>
-0amyc/parsing/Token.StringLitToken#copy().(value)*valueÄ*J
-3amyc/parsing/Token.StringLitToken#copy$default$1().*copy$default$1Ä*<
-,amyc/parsing/Token.StringLitToken#ordinal().*ordinalÄ*2
-'amyc/parsing/Token.StringLitToken#_1().*_1Ä*;
-"amyc/parsing/Token.StringLitToken.
- *StringLitTokenÄ*8
-*amyc/parsing/Token.StringLitToken.apply().*applyÄ*?
-1amyc/parsing/Token.StringLitToken.apply().(value)*valueÄ*<
-,amyc/parsing/Token.StringLitToken.unapply().*unapplyÄ*=
-1amyc/parsing/Token.StringLitToken.unapply().(x$1)*x$1Ä*>
--amyc/parsing/Token.StringLitToken.toString().*toStringÄ*9
- amyc/parsing/Token.BoolLitToken# àÅ*BoolLitTokenÄ*=
-+amyc/parsing/Token.BoolLitToken#`<init>`(). Ä@*<init>Ä*C
-2amyc/parsing/Token.BoolLitToken#`<init>`().(value) Ä*valueÄ*7
-&amyc/parsing/Token.BoolLitToken#value. Ä*valueÄ*4
-'amyc/parsing/Token.BoolLitToken#copy().*copyÄ*<
-.amyc/parsing/Token.BoolLitToken#copy().(value)*valueÄ*H
-1amyc/parsing/Token.BoolLitToken#copy$default$1().*copy$default$1Ä*:
-*amyc/parsing/Token.BoolLitToken#ordinal().*ordinalÄ*0
-%amyc/parsing/Token.BoolLitToken#_1().*_1Ä*7
- amyc/parsing/Token.BoolLitToken.
- *BoolLitTokenÄ*6
-(amyc/parsing/Token.BoolLitToken.apply().*applyÄ*=
-/amyc/parsing/Token.BoolLitToken.apply().(value)*valueÄ*:
-*amyc/parsing/Token.BoolLitToken.unapply().*unapplyÄ*;
-/amyc/parsing/Token.BoolLitToken.unapply().(x$1)*x$1Ä*<
-+amyc/parsing/Token.BoolLitToken.toString().*toStringÄ*=
-"amyc/parsing/Token.DelimiterToken# àÅ*DelimiterTokenÄ*?
--amyc/parsing/Token.DelimiterToken#`<init>`(). Ä@*<init>Ä*E
-4amyc/parsing/Token.DelimiterToken#`<init>`().(value) Ä*valueÄ*9
-(amyc/parsing/Token.DelimiterToken#value. Ä*valueÄ*6
-)amyc/parsing/Token.DelimiterToken#copy().*copyÄ*>
-0amyc/parsing/Token.DelimiterToken#copy().(value)*valueÄ*J
-3amyc/parsing/Token.DelimiterToken#copy$default$1().*copy$default$1Ä*<
-,amyc/parsing/Token.DelimiterToken#ordinal().*ordinalÄ*2
-'amyc/parsing/Token.DelimiterToken#_1().*_1Ä*;
-"amyc/parsing/Token.DelimiterToken.
- *DelimiterTokenÄ*8
-*amyc/parsing/Token.DelimiterToken.apply().*applyÄ*?
-1amyc/parsing/Token.DelimiterToken.apply().(value)*valueÄ*<
-,amyc/parsing/Token.DelimiterToken.unapply().*unapplyÄ*=
-1amyc/parsing/Token.DelimiterToken.unapply().(x$1)*x$1Ä*>
--amyc/parsing/Token.DelimiterToken.toString().*toStringÄ*;
-!amyc/parsing/Token.OperatorToken# àÅ*OperatorTokenÄ*>
-,amyc/parsing/Token.OperatorToken#`<init>`(). Ä@*<init>Ä*B
-2amyc/parsing/Token.OperatorToken#`<init>`().(name) Ä*nameÄ*6
-&amyc/parsing/Token.OperatorToken#name. Ä*nameÄ*5
-(amyc/parsing/Token.OperatorToken#copy().*copyÄ*;
-.amyc/parsing/Token.OperatorToken#copy().(name)*nameÄ*I
-2amyc/parsing/Token.OperatorToken#copy$default$1().*copy$default$1Ä*;
-+amyc/parsing/Token.OperatorToken#ordinal().*ordinalÄ*1
-&amyc/parsing/Token.OperatorToken#_1().*_1Ä*9
-!amyc/parsing/Token.OperatorToken.
- *OperatorTokenÄ*7
-)amyc/parsing/Token.OperatorToken.apply().*applyÄ*<
-/amyc/parsing/Token.OperatorToken.apply().(name)*nameÄ*;
-+amyc/parsing/Token.OperatorToken.unapply().*unapplyÄ*<
-0amyc/parsing/Token.OperatorToken.unapply().(x$1)*x$1Ä*=
-,amyc/parsing/Token.OperatorToken.toString().*toStringÄ*9
- amyc/parsing/Token.CommentToken# àÅ*CommentTokenÄ*=
-+amyc/parsing/Token.CommentToken#`<init>`(). Ä@*<init>Ä*A
-1amyc/parsing/Token.CommentToken#`<init>`().(text) Ä*textÄ*5
-%amyc/parsing/Token.CommentToken#text. Ä*textÄ*4
-'amyc/parsing/Token.CommentToken#copy().*copyÄ*:
--amyc/parsing/Token.CommentToken#copy().(text)*textÄ*H
-1amyc/parsing/Token.CommentToken#copy$default$1().*copy$default$1Ä*:
-*amyc/parsing/Token.CommentToken#ordinal().*ordinalÄ*0
-%amyc/parsing/Token.CommentToken#_1().*_1Ä*7
- amyc/parsing/Token.CommentToken.
- *CommentTokenÄ*6
-(amyc/parsing/Token.CommentToken.apply().*applyÄ*;
-.amyc/parsing/Token.CommentToken.apply().(text)*textÄ*:
-*amyc/parsing/Token.CommentToken.unapply().*unapplyÄ*;
-/amyc/parsing/Token.CommentToken.unapply().(x$1)*x$1Ä*<
-+amyc/parsing/Token.CommentToken.toString().*toStringÄ*5
-amyc/parsing/Token.SpaceToken# àÅ*
-SpaceTokenÄ*;
-)amyc/parsing/Token.SpaceToken#`<init>`(). Ä@*<init>Ä*2
-%amyc/parsing/Token.SpaceToken#copy().*copyÄ*8
-(amyc/parsing/Token.SpaceToken#ordinal().*ordinalÄ*3
-amyc/parsing/Token.SpaceToken.
- *
-SpaceTokenÄ*4
-&amyc/parsing/Token.SpaceToken.apply().*applyÄ*8
-(amyc/parsing/Token.SpaceToken.unapply().*unapplyÄ*9
--amyc/parsing/Token.SpaceToken.unapply().(x$1)*x$1Ä*:
-)amyc/parsing/Token.SpaceToken.toString().*toStringÄ*5
-amyc/parsing/Token.ErrorToken# àÅ*
-ErrorTokenÄ*;
-)amyc/parsing/Token.ErrorToken#`<init>`(). Ä@*<init>Ä*E
-2amyc/parsing/Token.ErrorToken#`<init>`().(content) Ä*contentÄ*9
-&amyc/parsing/Token.ErrorToken#content. Ä*contentÄ*2
-%amyc/parsing/Token.ErrorToken#copy().*copyÄ*>
-.amyc/parsing/Token.ErrorToken#copy().(content)*contentÄ*F
-/amyc/parsing/Token.ErrorToken#copy$default$1().*copy$default$1Ä*8
-(amyc/parsing/Token.ErrorToken#ordinal().*ordinalÄ*.
-#amyc/parsing/Token.ErrorToken#_1().*_1Ä*3
-amyc/parsing/Token.ErrorToken.
- *
-ErrorTokenÄ*4
-&amyc/parsing/Token.ErrorToken.apply().*applyÄ*?
-/amyc/parsing/Token.ErrorToken.apply().(content)*contentÄ*8
-(amyc/parsing/Token.ErrorToken.unapply().*unapplyÄ*9
--amyc/parsing/Token.ErrorToken.unapply().(x$1)*x$1Ä*:
-)amyc/parsing/Token.ErrorToken.toString().*toStringÄ*1
-amyc/parsing/Token.EOFToken# àÅ*EOFTokenÄ*9
-'amyc/parsing/Token.EOFToken#`<init>`(). Ä@*<init>Ä*0
-#amyc/parsing/Token.EOFToken#copy().*copyÄ*6
-&amyc/parsing/Token.EOFToken#ordinal().*ordinalÄ*/
-amyc/parsing/Token.EOFToken.
- *EOFTokenÄ*2
-$amyc/parsing/Token.EOFToken.apply().*applyÄ*6
-&amyc/parsing/Token.EOFToken.unapply().*unapplyÄ*7
-+amyc/parsing/Token.EOFToken.unapply().(x$1)*x$1Ä*8
-'amyc/parsing/Token.EOFToken.toString().*toStringÄ*5
-!amyc/parsing/Token.fromOrdinal().*fromOrdinalÄ*:
-*amyc/parsing/Token.fromOrdinal().(ordinal)*ordinalÄ*-
-amyc/parsing/TokenKind# îÄ*	TokenKindÄ*4
-"amyc/parsing/TokenKind#`<init>`(). Ä@*<init>Ä*3
-"amyc/parsing/TokenKind#toString().*toStringÄ*
-local0 Ä*valueÄ*
-local1 Ä*valueÄ*
-local2 Ä*valueÄ*+
-amyc/parsing/TokenKind.
- *	TokenKindÄ*;
-#amyc/parsing/TokenKind.KeywordKind# àÅ*KeywordKindÄ*@
-.amyc/parsing/TokenKind.KeywordKind#`<init>`(). Ä@*<init>Ä*F
-5amyc/parsing/TokenKind.KeywordKind#`<init>`().(value) Ä*valueÄ*:
-)amyc/parsing/TokenKind.KeywordKind#value. Ä*valueÄ*7
-*amyc/parsing/TokenKind.KeywordKind#copy().*copyÄ*?
-1amyc/parsing/TokenKind.KeywordKind#copy().(value)*valueÄ*K
-4amyc/parsing/TokenKind.KeywordKind#copy$default$1().*copy$default$1Ä*=
--amyc/parsing/TokenKind.KeywordKind#ordinal().*ordinalÄ*3
-(amyc/parsing/TokenKind.KeywordKind#_1().*_1Ä*9
-#amyc/parsing/TokenKind.KeywordKind.
- *KeywordKindÄ*9
-+amyc/parsing/TokenKind.KeywordKind.apply().*applyÄ*@
-2amyc/parsing/TokenKind.KeywordKind.apply().(value)*valueÄ*=
--amyc/parsing/TokenKind.KeywordKind.unapply().*unapplyÄ*>
-2amyc/parsing/TokenKind.KeywordKind.unapply().(x$1)*x$1Ä*?
-.amyc/parsing/TokenKind.KeywordKind.toString().*toStringÄ*A
-&amyc/parsing/TokenKind.IdentifierKind. Ä©*IdentifierKindÄ*=
-$amyc/parsing/TokenKind.PrimTypeKind. Ä©*PrimTypeKindÄ*;
-#amyc/parsing/TokenKind.LiteralKind. Ä©*LiteralKindÄ*?
-%amyc/parsing/TokenKind.DelimiterKind# àÅ*DelimiterKindÄ*B
-0amyc/parsing/TokenKind.DelimiterKind#`<init>`(). Ä@*<init>Ä*H
-7amyc/parsing/TokenKind.DelimiterKind#`<init>`().(value) Ä*valueÄ*<
-+amyc/parsing/TokenKind.DelimiterKind#value. Ä*valueÄ*9
-,amyc/parsing/TokenKind.DelimiterKind#copy().*copyÄ*A
-3amyc/parsing/TokenKind.DelimiterKind#copy().(value)*valueÄ*M
-6amyc/parsing/TokenKind.DelimiterKind#copy$default$1().*copy$default$1Ä*?
-/amyc/parsing/TokenKind.DelimiterKind#ordinal().*ordinalÄ*5
-*amyc/parsing/TokenKind.DelimiterKind#_1().*_1Ä*=
-%amyc/parsing/TokenKind.DelimiterKind.
- *DelimiterKindÄ*;
--amyc/parsing/TokenKind.DelimiterKind.apply().*applyÄ*B
-4amyc/parsing/TokenKind.DelimiterKind.apply().(value)*valueÄ*?
-/amyc/parsing/TokenKind.DelimiterKind.unapply().*unapplyÄ*@
-4amyc/parsing/TokenKind.DelimiterKind.unapply().(x$1)*x$1Ä*A
-0amyc/parsing/TokenKind.DelimiterKind.toString().*toStringÄ*=
-$amyc/parsing/TokenKind.OperatorKind# àÅ*OperatorKindÄ*A
-/amyc/parsing/TokenKind.OperatorKind#`<init>`(). Ä@*<init>Ä*G
-6amyc/parsing/TokenKind.OperatorKind#`<init>`().(value) Ä*valueÄ*;
-*amyc/parsing/TokenKind.OperatorKind#value. Ä*valueÄ*8
-+amyc/parsing/TokenKind.OperatorKind#copy().*copyÄ*@
-2amyc/parsing/TokenKind.OperatorKind#copy().(value)*valueÄ*L
-5amyc/parsing/TokenKind.OperatorKind#copy$default$1().*copy$default$1Ä*>
-.amyc/parsing/TokenKind.OperatorKind#ordinal().*ordinalÄ*4
-)amyc/parsing/TokenKind.OperatorKind#_1().*_1Ä*;
-$amyc/parsing/TokenKind.OperatorKind.
- *OperatorKindÄ*:
-,amyc/parsing/TokenKind.OperatorKind.apply().*applyÄ*A
-3amyc/parsing/TokenKind.OperatorKind.apply().(value)*valueÄ*>
-.amyc/parsing/TokenKind.OperatorKind.unapply().*unapplyÄ*?
-3amyc/parsing/TokenKind.OperatorKind.unapply().(x$1)*x$1Ä*@
-/amyc/parsing/TokenKind.OperatorKind.toString().*toStringÄ*3
-amyc/parsing/TokenKind.EOFKind. Ä©*EOFKindÄ*1
-amyc/parsing/TokenKind.NoKind. Ä©*NoKindÄ*+
-amyc/parsing/TokenKind.$new().*$newÄ*;
-)amyc/parsing/TokenKind.$new().(_$ordinal)*	_$ordinalÄ*3
-%amyc/parsing/TokenKind.$new().($name)*$nameÄ*9
-%amyc/parsing/TokenKind.fromOrdinal().*fromOrdinalÄ*>
-.amyc/parsing/TokenKind.fromOrdinal().(ordinal)*ordinalÄ*'
-amyc/parsing/TokenKind.of().*ofÄ*1
-#amyc/parsing/TokenKind.of().(token)*tokenÄ*
-local3 Ä*valueÄ*
-local4 Ä*valueÄ*
-local5 Ä*valueÄ2
- amyc/2
- amyc/parsing/2
- amyc/utils/2!
- 
-amyc/parsing/Token#2,
- amyc/parsing/Token#`<init>`().2$
- amyc/utils/Positioned#2
-# *scala/Product#2,
- amyc/parsing/Token#toString().2%
-Y Zjava/lang/String#`+`().2%
-B Cjava/lang/String#`+`().2%
-< =java/lang/String#`+`().2%
- java/lang/String#`+`().2,
- scala/Product#productPrefix().2:
-$ ,,scala/collection/IterableOnceOps#mkString().2.
- # scala/Product#productIterator().20
-M X"amyc/utils/Position#withoutFile().2/
-D L!amyc/utils/Positioned#position().2.
-  amyc/parsing/Token.KeywordToken#29
- +amyc/parsing/Token.KeywordToken#`<init>`().2"
- !scala/Predef.String#24
- &amyc/parsing/Token.KeywordToken#value.21
- #amyc/parsing/Token.IdentifierToken#2<
- .amyc/parsing/Token.IdentifierToken#`<init>`().2"
- #scala/Predef.String#26
- (amyc/parsing/Token.IdentifierToken#name.2/
-		 !amyc/parsing/Token.PrimTypeToken#2:
-		 ,amyc/parsing/Token.PrimTypeToken#`<init>`().2"
-		 "scala/Predef.String#25
-		 'amyc/parsing/Token.PrimTypeToken#value.2-
-
-
- amyc/parsing/Token.IntLitToken#28
-
-
- *amyc/parsing/Token.IntLitToken#`<init>`().2
-
-
- 
-scala/Int#23
-
-
- %amyc/parsing/Token.IntLitToken#value.20
- "amyc/parsing/Token.StringLitToken#2;
- -amyc/parsing/Token.StringLitToken#`<init>`().2"
- #scala/Predef.String#26
- (amyc/parsing/Token.StringLitToken#value.2.
-  amyc/parsing/Token.BoolLitToken#29
- +amyc/parsing/Token.BoolLitToken#`<init>`().2
- "scala/Boolean#24
- &amyc/parsing/Token.BoolLitToken#value.20
- "amyc/parsing/Token.DelimiterToken#2;
- -amyc/parsing/Token.DelimiterToken#`<init>`().2"
- #scala/Predef.String#26
- (amyc/parsing/Token.DelimiterToken#value.2/
- !amyc/parsing/Token.OperatorToken#2:
- ,amyc/parsing/Token.OperatorToken#`<init>`().2"
- !scala/Predef.String#24
- &amyc/parsing/Token.OperatorToken#name.2.
-  amyc/parsing/Token.CommentToken#29
- +amyc/parsing/Token.CommentToken#`<init>`().2"
-  scala/Predef.String#23
- %amyc/parsing/Token.CommentToken#text.2,
- amyc/parsing/Token.SpaceToken#27
- )amyc/parsing/Token.SpaceToken#`<init>`().2,
- amyc/parsing/Token.ErrorToken#27
- )amyc/parsing/Token.ErrorToken#`<init>`().2"
- !scala/Predef.String#24
- &amyc/parsing/Token.ErrorToken#content.2*
- amyc/parsing/Token.EOFToken#25
- 'amyc/parsing/Token.EOFToken#`<init>`().2%
- amyc/parsing/TokenKind#20
- "amyc/parsing/TokenKind#`<init>`().20
-"" "amyc/parsing/TokenKind#toString().2"
-"" scala/Predef.String#2;
-## -amyc/parsing/TokenKind.KeywordKind.unapply().21
-#	# #amyc/parsing/TokenKind.KeywordKind.2
-## local02
-## $local024
-$	$ &amyc/parsing/TokenKind.IdentifierKind.22
-%	% $amyc/parsing/TokenKind.PrimTypeKind.21
-&	& #amyc/parsing/TokenKind.LiteralKind.2=
-'' /amyc/parsing/TokenKind.DelimiterKind.unapply().23
-'	' %amyc/parsing/TokenKind.DelimiterKind.2
-'' local12"
-'' $scala/Predef.String#2
-')' .local12<
-(( .amyc/parsing/TokenKind.OperatorKind.unapply().22
-(	( $amyc/parsing/TokenKind.OperatorKind.2
-(( local22"
-(( #scala/Predef.String#2
-((( -local22-
-)	) amyc/parsing/TokenKind.EOFKind.2,
-*	* amyc/parsing/TokenKind.NoKind.2%
-,, amyc/parsing/TokenKind.21
- #amyc/parsing/TokenKind.KeywordKind#2<
- .amyc/parsing/TokenKind.KeywordKind#`<init>`().2"
-  scala/Predef.String#27
- )amyc/parsing/TokenKind.KeywordKind#value.24
- &amyc/parsing/TokenKind.IdentifierKind.22
- $amyc/parsing/TokenKind.PrimTypeKind.21
- #amyc/parsing/TokenKind.LiteralKind.23
- %amyc/parsing/TokenKind.DelimiterKind#2>
- 0amyc/parsing/TokenKind.DelimiterKind#`<init>`().2"
- "scala/Predef.String#29
- +amyc/parsing/TokenKind.DelimiterKind#value.22
- $amyc/parsing/TokenKind.OperatorKind#2=
- /amyc/parsing/TokenKind.OperatorKind#`<init>`().2"
- !scala/Predef.String#28
- *amyc/parsing/TokenKind.OperatorKind#value.2-
- amyc/parsing/TokenKind.EOFKind.2,
-   amyc/parsing/TokenKind.NoKind.2!
--	- amyc/parsing/Token.2*
-// amyc/parsing/TokenKind.of().21
-/	/ #amyc/parsing/TokenKind.of().(token)2!
-// amyc/parsing/Token#2%
-// !amyc/parsing/TokenKind#21
-/$/ )#amyc/parsing/TokenKind.of().(token)28
-00 *amyc/parsing/Token.KeywordToken.unapply().2.
-0	0  amyc/parsing/Token.KeywordToken.2
-00 local329
-0+0 ++amyc/parsing/TokenKind.KeywordKind.apply().21
-0 0 +#amyc/parsing/TokenKind.KeywordKind.2
-0,0 1local32;
-11 -amyc/parsing/Token.IdentifierToken.unapply().21
-1	1 #amyc/parsing/Token.IdentifierToken.24
-11 -&amyc/parsing/TokenKind.IdentifierKind.29
-22 +amyc/parsing/Token.PrimTypeToken.unapply().2/
-2	2 !amyc/parsing/Token.PrimTypeToken.22
-22 )$amyc/parsing/TokenKind.PrimTypeKind.28
-33 *amyc/parsing/Token.BoolLitToken.unapply().2.
-3	3  amyc/parsing/Token.BoolLitToken.21
-33 '#amyc/parsing/TokenKind.LiteralKind.27
-44 )amyc/parsing/Token.IntLitToken.unapply().2-
-4	4 amyc/parsing/Token.IntLitToken.21
-44 &#amyc/parsing/TokenKind.LiteralKind.2:
-55 ,amyc/parsing/Token.StringLitToken.unapply().20
-5	5 "amyc/parsing/Token.StringLitToken.21
-55 )#amyc/parsing/TokenKind.LiteralKind.2:
-66 ,amyc/parsing/Token.DelimiterToken.unapply().20
-6	6 "amyc/parsing/Token.DelimiterToken.2
-66 local42;
-6/6 /-amyc/parsing/TokenKind.DelimiterKind.apply().23
-6"6 /%amyc/parsing/TokenKind.DelimiterKind.2
-606 5local429
-77 +amyc/parsing/Token.OperatorToken.unapply().2/
-7	7 !amyc/parsing/Token.OperatorToken.2
-77 local52:
-7-7 -,amyc/parsing/TokenKind.OperatorKind.apply().22
-7!7 -$amyc/parsing/TokenKind.OperatorKind.2
-7.7 3local524
-88 &amyc/parsing/Token.EOFToken.unapply().2*
-8	8 amyc/parsing/Token.EOFToken.2-
-88 amyc/parsing/TokenKind.EOFKind.2,
-99 amyc/parsing/TokenKind.NoKind.PZ 5CAB2DA15A00A68AB9CD16E44236E526

@@ -1,159 +1,0 @@
-
-Ó5$test/scala/amyc/test/TestSuite.scala*(
-amyc/test/TestSuite# *	TestSuite€*1
-amyc/test/TestSuite#`<init>`(). €@*<init>€*1
-amyc/test/TestSuite#pipeline. „*pipeline€*/
-amyc/test/TestSuite#baseDir. „*baseDir€*A
-%amyc/test/TestSuite#effectiveBaseDir. À*effectiveBaseDir€*/
-amyc/test/TestSuite#passing. €*passing€*/
-amyc/test/TestSuite#failing. €*failing€*/
-amyc/test/TestSuite#outputs. €*outputs€*3
-amyc/test/TestSuite#outputExt. „*	outputExt€*8
-#amyc/test/TestSuite#shouldOutput().*shouldOutput€*B
-/amyc/test/TestSuite#shouldOutput().(inputFiles)*
-inputFiles€*B
-/amyc/test/TestSuite#shouldOutput().(outputFile)*
-outputFile€*8
-*amyc/test/TestSuite#shouldOutput().(input)*input€*
-local0*f€*L
--amyc/test/TestSuite#shouldOutput$default$3().*shouldOutput$default$3€*:
-%amyc/test/TestSuite#shouldOutput(+1).*shouldOutput€*B
-0amyc/test/TestSuite#shouldOutput(+1).(inputFile)*	inputFile€*4
-!amyc/test/TestSuite#shouldFail().*
-shouldFail€*@
--amyc/test/TestSuite#shouldFail().(inputFiles)*
-inputFiles€*6
-(amyc/test/TestSuite#shouldFail().(input)*input€*
-local1*f€*H
-+amyc/test/TestSuite#shouldFail$default$2().*shouldFail$default$2€*6
-#amyc/test/TestSuite#shouldFail(+1).*
-shouldFail€*@
-.amyc/test/TestSuite#shouldFail(+1).(inputFile)*	inputFile€*4
-!amyc/test/TestSuite#shouldPass().*
-shouldPass€*@
--amyc/test/TestSuite#shouldPass().(inputFiles)*
-inputFiles€*6
-(amyc/test/TestSuite#shouldPass().(input)*input€*
-local2*f€*H
-+amyc/test/TestSuite#shouldPass$default$2().*shouldPass$default$2€*6
-#amyc/test/TestSuite#shouldPass(+1).*
-shouldPass€*@
-.amyc/test/TestSuite#shouldPass(+1).(inputFile)*	inputFile€2
- 
-amyc/test/2
- amyc/2"
- amyc/utils/Pipeline.2
- amyc/utils/2
- amyc/2
- java/io/File.2
- java/io/File#2
- java/io/2
- java/2"
- amyc/test/TestSuite#2-
-! !amyc/test/TestSuite#`<init>`().20
-- -"amyc/test/CompilerTest#`<init>`().2%
-! -amyc/test/CompilerTest#2+
- amyc/test/TestSuite#pipeline.2"
- amyc/utils/Pipeline#2!
- scala/package.List#2
- "java/io/File#2
-% )scala/Unit#2*
- amyc/test/TestSuite#baseDir.2"
- scala/Predef.String#23
-		 %amyc/test/TestSuite#effectiveBaseDir.2"
-		 #scala/Predef.String#2&
- scala/StringContext#s().2*
- scala/StringContext.apply().2*
- amyc/test/TestSuite#baseDir.2*
- amyc/test/TestSuite#passing.2*
- amyc/test/TestSuite#failing.2*
- amyc/test/TestSuite#outputs.2,
- amyc/test/TestSuite#outputExt.2"
- scala/Predef.String#21
- #amyc/test/TestSuite#shouldOutput().2=
- /amyc/test/TestSuite#shouldOutput().(inputFiles)2!
- #scala/package.List#2"
-$ *scala/Predef.String#2=
-- 7/amyc/test/TestSuite#shouldOutput().(outputFile)2"
-9 ?scala/Predef.String#28
-A F*amyc/test/TestSuite#shouldOutput().(input)2"
-H Nscala/Predef.String#2
-V Zscala/Unit#26
- (amyc/test/CompilerTest#compareOutputs().2+
- amyc/test/TestSuite#pipeline.24
- &scala/collection/immutable/List#map().2=
- /amyc/test/TestSuite#shouldOutput().(inputFiles)2
- local02&
-@ Ascala/StringContext#s().2*
- scala/StringContext.apply().23
- .%amyc/test/TestSuite#effectiveBaseDir.2*
-0 7amyc/test/TestSuite#passing.2
-9 :local02&
-9 :scala/StringContext#s().2*
- scala/StringContext.apply().23
-	 %amyc/test/TestSuite#effectiveBaseDir.2*
- "amyc/test/TestSuite#outputs.2=
-$ ./amyc/test/TestSuite#shouldOutput().(outputFile)2,
-0 9amyc/test/TestSuite#outputExt.28
- *amyc/test/TestSuite#shouldOutput().(input)23
- %amyc/test/TestSuite#shouldOutput(+1).2>
- 0amyc/test/TestSuite#shouldOutput(+1).(inputFile)2"
- $scala/Predef.String#2
-' +scala/Unit#21
- #amyc/test/TestSuite#shouldOutput().27
- )scala/collection/IterableFactory#apply().2!
- scala/package.List.2>
- 0amyc/test/TestSuite#shouldOutput(+1).(inputFile)2>
-" +0amyc/test/TestSuite#shouldOutput(+1).(inputFile)2/
-   !amyc/test/TestSuite#shouldFail().2;
-   -amyc/test/TestSuite#shouldFail().(inputFiles)2!
-   !scala/package.List#2"
- "  (scala/Predef.String#26
- +  0(amyc/test/TestSuite#shouldFail().(input)2"
- 2  8scala/Predef.String#2
- @  Dscala/Unit#25
-!! 'amyc/test/CompilerTest#demandFailure().2+
-"" amyc/test/TestSuite#pipeline.24
-## &scala/collection/immutable/List#map().2;
-## -amyc/test/TestSuite#shouldFail().(inputFiles)2
-## local12&
-#@# Ascala/StringContext#s().2*
-## scala/StringContext.apply().23
-## .%amyc/test/TestSuite#effectiveBaseDir.2*
-#0# 7amyc/test/TestSuite#failing.2
-#9# :local126
-$$ (amyc/test/TestSuite#shouldFail().(input)21
-(( #amyc/test/TestSuite#shouldFail(+1).2<
-(( .amyc/test/TestSuite#shouldFail(+1).(inputFile)2"
-(( "scala/Predef.String#2
-(%( )scala/Unit#2/
-)) !amyc/test/TestSuite#shouldFail().27
-)) )scala/collection/IterableFactory#apply().2!
-)) scala/package.List.2<
-)) .amyc/test/TestSuite#shouldFail(+1).(inputFile)2/
-,, !amyc/test/TestSuite#shouldPass().2;
-,, -amyc/test/TestSuite#shouldPass().(inputFiles)2!
-,, !scala/package.List#2"
-,", (scala/Predef.String#26
-,+, 0(amyc/test/TestSuite#shouldPass().(input)2"
-,2, 8scala/Predef.String#2
-,@, Dscala/Unit#22
--- $amyc/test/CompilerTest#demandPass().2+
--- amyc/test/TestSuite#pipeline.24
--$- '&scala/collection/immutable/List#map().2;
--- #-amyc/test/TestSuite#shouldPass().(inputFiles)2
--)- *local22&
--S- Tscala/StringContext#s().2*
--0- 0scala/StringContext.apply().23
--1- A%amyc/test/TestSuite#effectiveBaseDir.2*
--C- Jamyc/test/TestSuite#passing.2
--L- Mlocal226
--W- \(amyc/test/TestSuite#shouldPass().(input)21
-00 #amyc/test/TestSuite#shouldPass(+1).2<
-00 .amyc/test/TestSuite#shouldPass(+1).(inputFile)2"
-00 "scala/Predef.String#2
-0%0 )scala/Unit#2/
-11 !amyc/test/TestSuite#shouldPass().27
-11 )scala/collection/IterableFactory#apply().2!
-11 scala/package.List.2<
-11 .amyc/test/TestSuite#shouldPass(+1).(inputFile)PZ 75C56EA5599DBB7BDBB089AE008F338A

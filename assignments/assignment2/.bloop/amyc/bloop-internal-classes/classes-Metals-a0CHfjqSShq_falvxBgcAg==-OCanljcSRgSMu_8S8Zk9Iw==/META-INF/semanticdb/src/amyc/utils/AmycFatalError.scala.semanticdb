@@ -1,26 +1,0 @@
-
-™	#src/amyc/utils/AmycFatalError.scala*4
-amyc/utils/AmycFatalError# €*AmycFatalError€*7
-%amyc/utils/AmycFatalError#`<init>`(). €@*<init>€*9
-*amyc/utils/AmycFatalError#`<init>`().(msg) €*msg€*-
-amyc/utils/AmycFatalError#msg. €*msg€*.
-!amyc/utils/AmycFatalError#copy().*copy€*2
-&amyc/utils/AmycFatalError#copy().(msg)*msg€*B
-+amyc/utils/AmycFatalError#copy$default$1().*copy$default$1€**
-amyc/utils/AmycFatalError#_1().*_1€*3
-amyc/utils/AmycFatalError.
- *AmycFatalError€*0
-"amyc/utils/AmycFatalError.apply().*apply€*3
-'amyc/utils/AmycFatalError.apply().(msg)*msg€*4
-$amyc/utils/AmycFatalError.unapply().*unapply€*5
-)amyc/utils/AmycFatalError.unapply().(x$1)*x$1€*6
-%amyc/utils/AmycFatalError.toString().*toString€2
- amyc/utils/2
- amyc/2(
- amyc/utils/AmycFatalError#23
- %amyc/utils/AmycFatalError#`<init>`().2"
- %scala/Predef.String#2/
-8 8!java/lang/Exception#`<init>`(+1).2&
-/ 8scala/package.Exception#2,
-9 <amyc/utils/AmycFatalError#msg.2,
- amyc/utils/AmycFatalError#msg.PZ 9E950E528A09E4C97CF6EE82B708429B
