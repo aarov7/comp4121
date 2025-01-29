@@ -1,0 +1,59 @@
+
+¶$test/scala/amyc/test/TestUtils.scala*&
+amyc/test/TestUtils#*	TestUtils€*1
+amyc/test/TestUtils#`<init>`(). €@*<init>€*H
++amyc/test/TestUtils#testWithRedirectedIO().*testWithRedirectedIO€*8
+.amyc/test/TestUtils#testWithRedirectedIO().[T]	*T€*>
+1amyc/test/TestUtils#testWithRedirectedIO().(test)*test€*@
+2amyc/test/TestUtils#testWithRedirectedIO().(input)*input€*
+local0 €*inputS€*
+local1 €*outputS€2
+ 
+amyc/test/2
+ amyc/2
+ java/io/2
+ java/2"
+ amyc/test/TestUtils#2-
+
+
+ amyc/test/TestUtils#`<init>`().29
+
+
+ +amyc/test/TestUtils#testWithRedirectedIO().2<
+
+
+ .amyc/test/TestUtils#testWithRedirectedIO().[T]2?
+
+
+ "1amyc/test/TestUtils#testWithRedirectedIO().(test)2<
+
+'
+ (.amyc/test/TestUtils#testWithRedirectedIO().[T]2@
+
+*
+ /2amyc/test/TestUtils#testWithRedirectedIO().(input)2"
+
+1
+ 7scala/Predef.String#2"
+
+:
+ @scala/Predef.String#2
+ scala/Console.2
+ scala/2
+ local02.
+" " java/io/StringReader#`<init>`().2#
+ "java/io/StringReader#2@
+# (2amyc/test/TestUtils#testWithRedirectedIO().(input)2
+ local127
++ +)java/io/ByteArrayOutputStream#`<init>`().2,
+ +java/io/ByteArrayOutputStream#2(
+ scala/Console.withOut(+1).2
+ local12(
+ scala/Console.withErr(+1).2
+ local12%
+ scala/Console.withIn().2
+ local02?
+
+ 1amyc/test/TestUtils#testWithRedirectedIO().(test)27
+ )java/io/ByteArrayOutputStream#toString().2
+ local1PZ A83EF5E0A7660DAEAF15E7D900499C1C

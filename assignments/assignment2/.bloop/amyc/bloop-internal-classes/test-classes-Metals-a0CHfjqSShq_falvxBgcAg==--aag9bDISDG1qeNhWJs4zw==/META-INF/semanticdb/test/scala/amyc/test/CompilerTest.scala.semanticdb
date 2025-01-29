@@ -1,0 +1,268 @@
+
+÷Q'test/scala/amyc/test/CompilerTest.scala*.
+amyc/test/CompilerTest# *CompilerTest€*4
+"amyc/test/CompilerTest#`<init>`(). €@*<init>€*9
+%amyc/test/CompilerTest#runPipeline().*runPipeline€*@
+/amyc/test/CompilerTest#runPipeline().(pipeline)*pipeline€*B
+0amyc/test/CompilerTest#runPipeline().(fileNames)*	fileNames€*
+local0 €*ctx€*
+local1 €*files€*M
+/amyc/test/CompilerTest#runPipelineRedirected().*runPipelineRedirected€*J
+9amyc/test/CompilerTest#runPipelineRedirected().(pipeline)*pipeline€*T
+>amyc/test/CompilerTest#runPipelineRedirected().(compiledFiles)*compiledFiles€*D
+6amyc/test/CompilerTest#runPipelineRedirected().(input)*input€*9
+%amyc/test/CompilerTest#assertEqual().*assertEqual€*<
+-amyc/test/CompilerTest#assertEqual().(output)*output€*@
+/amyc/test/CompilerTest#assertEqual().(expected)*expected€*
+local2 €*
+rejectLine€*
+local3*s€*
+local4*filtered€*
+local5*s€* 
+local6 €*filteredOutput€*"
+local7 €*filteredExpected€*
+local8 €*sb€*?
+(amyc/test/CompilerTest#compareOutputs().*compareOutputs€*C
+2amyc/test/CompilerTest#compareOutputs().(pipeline)*pipeline€*M
+7amyc/test/CompilerTest#compareOutputs().(compiledFiles)*compiledFiles€*K
+6amyc/test/CompilerTest#compareOutputs().(expectedFile)*expectedFile€*=
+/amyc/test/CompilerTest#compareOutputs().(input)*input€*
+local9 €*output€*
+local10 €*expected€*
+local11 €*msg€*S
+2amyc/test/CompilerTest#compareOutputs$default$4().*compareOutputs$default$4€*7
+$amyc/test/CompilerTest#demandPass().*
+demandPass€*?
+.amyc/test/CompilerTest#demandPass().(pipeline)*pipeline€*I
+3amyc/test/CompilerTest#demandPass().(compiledFiles)*compiledFiles€*9
++amyc/test/CompilerTest#demandPass().(input)*input€*
+local12 €*msg€*K
+.amyc/test/CompilerTest#demandPass$default$3().*demandPass$default$3€*=
+'amyc/test/CompilerTest#demandFailure().*demandFailure€*B
+1amyc/test/CompilerTest#demandFailure().(pipeline)*pipeline€*L
+6amyc/test/CompilerTest#demandFailure().(compiledFiles)*compiledFiles€*<
+.amyc/test/CompilerTest#demandFailure().(input)*input€*Q
+1amyc/test/CompilerTest#demandFailure$default$3().*demandFailure$default$3€2
+ 
+amyc/test/2
+ amyc/2
+ amyc/utils/2
+ amyc/2
+ java/io/File.2
+ java/io/File#2
+ java/io/2
+ java/2(
+ org/junit/Assert#fail(+1).2&
+ org/junit/Assert#fail().2
+ org/junit/Assert#2
+ 
+org/junit/2
+ 
+org/2%
+ amyc/test/CompilerTest#20
+$ $"amyc/test/CompilerTest#`<init>`().2"
+$ -amyc/test/TestUtils#23
+ %amyc/test/CompilerTest#runPipeline().2=
+ "/amyc/test/CompilerTest#runPipeline().(pipeline)2"
+$ ,amyc/utils/Pipeline#2!
+- 1scala/package.List#2
+2 6java/io/File#2
+9 =scala/Unit#2>
+@ I0amyc/test/CompilerTest#runPipeline().(fileNames)2!
+K Oscala/package.List#2"
+P Vscala/Predef.String#2
+		 local02)
+		 amyc/utils/Context.apply().2!
+		 amyc/utils/Context.2-
+	"	 "amyc/utils/Reporter#`<init>`().2"
+		 "amyc/utils/Reporter#2>
+	$	 -0amyc/test/CompilerTest#runPipeline().(fileNames)2
+
+
+ local124
+
+
+ &scala/collection/immutable/List#map().2'
+
+
+ amyc/utils/Context#files.2
+
+
+ local02(
+
+&
+ &java/io/File#`<init>`(+2).2
+
+"
+ &java/io/File#2(
+ amyc/utils/Pipeline#run().2=
+ /amyc/test/CompilerTest#runPipeline().(pipeline)2
+ local02
+ local126
+ "(amyc/utils/Reporter#terminateIfErrors().2*
+ amyc/utils/Context#reporter.2
+ local02=
+ #/amyc/test/CompilerTest#runPipelineRedirected().2G
+ 9amyc/test/CompilerTest#runPipelineRedirected().(pipeline)2"
+ amyc/utils/Pipeline#2!
+ scala/package.List#2
+  java/io/File#2
+# 'scala/Unit#2L
+ >amyc/test/CompilerTest#runPipelineRedirected().(compiledFiles)2!
+ scala/package.List#2"
+ scala/Predef.String#2D
+ 	6amyc/test/CompilerTest#runPipelineRedirected().(input)2"
+ scala/Predef.String#2"
+ scala/Predef.String#29
+ +amyc/test/TestUtils#testWithRedirectedIO().23
+ $%amyc/test/CompilerTest#runPipeline().2G
+% -9amyc/test/CompilerTest#runPipelineRedirected().(pipeline)2L
+/ <>amyc/test/CompilerTest#runPipelineRedirected().(compiledFiles)2D
+? D6amyc/test/CompilerTest#runPipelineRedirected().(input)23
+ %amyc/test/CompilerTest#assertEqual().2;
+  -amyc/test/CompilerTest#assertEqual().(output)2"
+" (scala/Predef.String#2=
+* 2/amyc/test/CompilerTest#assertEqual().(expected)2"
+4 :scala/Predef.String#2
+ local22
+ local32"
+ scala/Predef.String#2#
+" $scala/Boolean#`||`().2#
+" $scala/Boolean#`||`().2#
+" $scala/Boolean#`||`().2#
+ scala/Boolean#`||`().2)
+ java/lang/String#isEmpty().2
+ local32.
+
+  java/lang/String#startsWith(+1).2
+ 	local32.
+
+  java/lang/String#startsWith(+1).2
+ 	local32.
+
+  java/lang/String#startsWith(+1).2
+ 	local32.
+
+  java/lang/String#startsWith(+1).2
+ 	local32
+ local42
+ local52"
+ scala/Predef.String#2<
+D L.scala/collection/IterableOnceOps#mkString(+1).24
+. 7&scala/collection/Iterator#filterNot().29
+  -+scala/collection/StringOps#linesIterator().2+
+ scala/Predef.augmentString().2
+ local52
+8 Blocal22
+ local62
+ !local42;
+" (-amyc/test/CompilerTest#assertEqual().(output)2
+   local72
+   #local42=
+ $  ,/amyc/test/CompilerTest#assertEqual().(expected)2
+!! scala/Any#`!=`().2
+!! local62
+!! *local72
+"
+" local820
+"" "java/lang/StringBuffer#`<init>`().2%
+"" java/lang/StringBuffer#20
+#	# "java/lang/StringBuffer#append(+1).2
+## local820
+$	$ "java/lang/StringBuffer#append(+1).2
+$$ local820
+%	% "java/lang/StringBuffer#append(+1).2
+%% local82
+%% local620
+&	& "java/lang/StringBuffer#append(+1).2
+&& local820
+'	' "java/lang/StringBuffer#append(+1).2
+'' local82
+''  local720
+(	( "java/lang/StringBuffer#append(+1).2
+(( local82&
+)) 
+org/junit/Assert#fail().20
+)) "java/lang/StringBuffer#toString().2
+)) local826
+-- (amyc/test/CompilerTest#compareOutputs().2@
+.. 2amyc/test/CompilerTest#compareOutputs().(pipeline)2"
+.. amyc/utils/Pipeline#2!
+.. scala/package.List#2
+..  java/io/File#2
+.#. 'scala/Unit#2E
+// 7amyc/test/CompilerTest#compareOutputs().(compiledFiles)2!
+// scala/package.List#2"
+// scala/Predef.String#2D
+00 6amyc/test/CompilerTest#compareOutputs().(expectedFile)2"
+00 scala/Predef.String#2=
+11 	/amyc/test/CompilerTest#compareOutputs().(input)2"
+11 scala/Predef.String#2
+4
+4 local92=
+44 (/amyc/test/CompilerTest#runPipelineRedirected().2@
+4)4 12amyc/test/CompilerTest#compareOutputs().(pipeline)2E
+434 @7amyc/test/CompilerTest#compareOutputs().(compiledFiles)2=
+4B4 G/amyc/test/CompilerTest#compareOutputs().(input)2
+5
+5 local102<
+5F5 N.scala/collection/IterableOnceOps#mkString(+2).2+
+5%5 -scala/io/Source.fromFile(+4).2
+55 $scala/io/Source.2
+55 	scala/io/2
+55 scala/2(
+565 6java/io/File#`<init>`(+2).2
+525 6java/io/File#2D
+575 C6amyc/test/CompilerTest#compareOutputs().(expectedFile)2E
+5E5 E7scala/io/LowPriorityCodecImplicits#fallbackSystemCodec.23
+66 %amyc/test/CompilerTest#assertEqual().2
+66 local92
+66 "local1022
+99 $amyc/utils/AmycFatalError.unapply().2(
+99 amyc/utils/AmycFatalError.2
+99 local112&
+:: org/junit/Assert#fail().2&
+:: scala/StringContext#s().2*
+:: scala/StringContext.apply().2
+:: local1122
+>> $amyc/test/CompilerTest#demandPass().2<
+?? .amyc/test/CompilerTest#demandPass().(pipeline)2"
+?? amyc/utils/Pipeline#2!
+?? scala/package.List#2
+??  java/io/File#2
+?#? 'scala/Unit#2A
+@@ 3amyc/test/CompilerTest#demandPass().(compiledFiles)2!
+@@ scala/package.List#2"
+@@ scala/Predef.String#29
+AA 	+amyc/test/CompilerTest#demandPass().(input)2"
+AA scala/Predef.String#2=
+DD /amyc/test/CompilerTest#runPipelineRedirected().2<
+DD $.amyc/test/CompilerTest#demandPass().(pipeline)2A
+D&D 33amyc/test/CompilerTest#demandPass().(compiledFiles)29
+D5D :+amyc/test/CompilerTest#demandPass().(input)22
+FF $amyc/utils/AmycFatalError.unapply().2(
+FF amyc/utils/AmycFatalError.2
+FF local122&
+GG org/junit/Assert#fail().2&
+GG scala/StringContext#s().2*
+GG scala/StringContext.apply().2
+GG local1225
+KK 'amyc/test/CompilerTest#demandFailure().2?
+LL 1amyc/test/CompilerTest#demandFailure().(pipeline)2"
+LL amyc/utils/Pipeline#2!
+LL scala/package.List#2
+LL  java/io/File#2
+L#L 'scala/Unit#2D
+MM 6amyc/test/CompilerTest#demandFailure().(compiledFiles)2!
+MM scala/package.List#2"
+MM scala/Predef.String#2<
+NN 	.amyc/test/CompilerTest#demandFailure().(input)2"
+NN scala/Predef.String#2=
+QQ /amyc/test/CompilerTest#runPipelineRedirected().2?
+QQ $1amyc/test/CompilerTest#demandFailure().(pipeline)2D
+Q&Q 36amyc/test/CompilerTest#demandFailure().(compiledFiles)2<
+Q5Q :.amyc/test/CompilerTest#demandFailure().(input)2&
+RR 
+org/junit/Assert#fail().22
+TT $amyc/utils/AmycFatalError.unapply().2(
+TT amyc/utils/AmycFatalError.PZ 522131C5DBE02C240D142609E6EF0F81

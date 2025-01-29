@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/arp/.local/share/coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/home/arp/dev/comp4121/assignments/assignment2/src/amyc/parsing/.scala-build/ide-options-v2.json",
+    "/home/arp/dev/comp4121/assignments/assignment2/src/amyc/parsing"
+  ],
+  "version": "1.1.2",
+  "bspVersion": "2.1.0-M7",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

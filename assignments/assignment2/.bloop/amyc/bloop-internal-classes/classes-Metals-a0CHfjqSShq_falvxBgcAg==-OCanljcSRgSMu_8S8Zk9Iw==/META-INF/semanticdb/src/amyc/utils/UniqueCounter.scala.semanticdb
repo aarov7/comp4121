@@ -1,0 +1,45 @@
+
+°"src/amyc/utils/UniqueCounter.scala*/
+amyc/utils/UniqueCounter#*UniqueCounter€*6
+$amyc/utils/UniqueCounter#`<init>`(). €@*<init>€*&
+amyc/utils/UniqueCounter#[K]	*K€*4
+!amyc/utils/UniqueCounter#elemIds. €*elemIds€*-
+ amyc/utils/UniqueCounter#next().*next€*1
+%amyc/utils/UniqueCounter#next().(key)*key€2
+ amyc/utils/2
+ amyc/2'
+ scala/collection/mutable/2
+ scala/collection/2
+ scala/2'
+ amyc/utils/UniqueCounter#22
+ $amyc/utils/UniqueCounter#`<init>`().2*
+ amyc/utils/UniqueCounter#[K]2/
+ !amyc/utils/UniqueCounter#elemIds.2>
+. >0scala/collection/mutable/Map#withDefaultValue().2;
+# #-scala/collection/MapFactory.Delegate#apply().2+
+  #scala/collection/mutable/Map.2'
+ scala/collection/mutable/2*
+$ %amyc/utils/UniqueCounter#[K]2
+' *
+scala/Int#2.
+ 
+ amyc/utils/UniqueCounter#next().23
+ %amyc/utils/UniqueCounter#next().(key)2*
+ amyc/utils/UniqueCounter#[K]2
+ 
+scala/Int#2.
+ & java/lang/Object#synchronized().27
+		 )scala/collection/mutable/MapOps#update().2/
+		 !amyc/utils/UniqueCounter#elemIds.23
+		 %amyc/utils/UniqueCounter#next().(key)2 
+		 scala/Int#`+`(+4).2.
+		  scala/collection/MapOps#apply().2.
+
+
+  scala/collection/MapOps#apply().2/
+
+
+ !amyc/utils/UniqueCounter#elemIds.23
+
+
+ %amyc/utils/UniqueCounter#next().(key)PZ 84DB8B80AE4C03F6033906340CA53361

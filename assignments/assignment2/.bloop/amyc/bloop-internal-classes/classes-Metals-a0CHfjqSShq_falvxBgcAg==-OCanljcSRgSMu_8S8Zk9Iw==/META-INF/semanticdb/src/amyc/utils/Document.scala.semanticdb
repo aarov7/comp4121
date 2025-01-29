@@ -1,0 +1,302 @@
+
+°Osrc/amyc/utils/Document.scala*'
+amyc/utils/Document# *Document€*1
+amyc/utils/Document#`<init>`(). €@*<init>€*(
+amyc/utils/Document#`<:>`().*<:>€*1
+#amyc/utils/Document#`<:>`().(other)*other€**
+amyc/utils/Document#print().*print€*
+local0 €*sb€*
+local1*rec€*
+local2*d€*
+local3  *ind€*
+local4  *first€*
+local5 €*s€*
+local6 €*doc€*
+local7 €*doc€*
+local8 €*docs€*
+local9 €*sep€*
+local10*doc€*
+local11 €*docs€*
+local12 €*
+emptyLines€*
+local13*doc€*(
+amyc/utils/Indented# €*Indented€*1
+amyc/utils/Indented#`<init>`(). €@*<init>€*;
+(amyc/utils/Indented#`<init>`().(content) €*content€*/
+amyc/utils/Indented#content. €*content€*(
+amyc/utils/Indented#copy().*copy€*4
+$amyc/utils/Indented#copy().(content)*content€*<
+%amyc/utils/Indented#copy$default$1().*copy$default$1€*$
+amyc/utils/Indented#_1().*_1€*'
+amyc/utils/Indented.
+ *Indented€**
+amyc/utils/Indented.apply().*apply€*5
+%amyc/utils/Indented.apply().(content)*content€*.
+amyc/utils/Indented.unapply().*unapply€*/
+#amyc/utils/Indented.unapply().(x$1)*x$1€*0
+amyc/utils/Indented.toString().*toString€*,
+amyc/utils/Unindented# €*
+Unindented€*3
+!amyc/utils/Unindented#`<init>`(). €@*<init>€*=
+*amyc/utils/Unindented#`<init>`().(content) €*content€*1
+amyc/utils/Unindented#content. €*content€**
+amyc/utils/Unindented#copy().*copy€*6
+&amyc/utils/Unindented#copy().(content)*content€*>
+'amyc/utils/Unindented#copy$default$1().*copy$default$1€*&
+amyc/utils/Unindented#_1().*_1€*+
+amyc/utils/Unindented.
+ *
+Unindented€*,
+amyc/utils/Unindented.apply().*apply€*7
+'amyc/utils/Unindented.apply().(content)*content€*0
+ amyc/utils/Unindented.unapply().*unapply€*1
+%amyc/utils/Unindented.unapply().(x$1)*x$1€*2
+!amyc/utils/Unindented.toString().*toString€*&
+amyc/utils/Stacked# €*Stacked€*0
+amyc/utils/Stacked#`<init>`(). €@*<init>€*4
+$amyc/utils/Stacked#`<init>`().(docs) €*docs€*@
+*amyc/utils/Stacked#`<init>`().(emptyLines) €*
+emptyLines€*(
+amyc/utils/Stacked#docs. €*docs€*4
+amyc/utils/Stacked#emptyLines. €*
+emptyLines€*'
+amyc/utils/Stacked#copy().*copy€*-
+ amyc/utils/Stacked#copy().(docs)*docs€*9
+&amyc/utils/Stacked#copy().(emptyLines)*
+emptyLines€*;
+$amyc/utils/Stacked#copy$default$1().*copy$default$1€*;
+$amyc/utils/Stacked#copy$default$2().*copy$default$2€*#
+amyc/utils/Stacked#_1().*_1€*#
+amyc/utils/Stacked#_2().*_2€*"
+amyc/utils/Lined# €*Lined€*.
+amyc/utils/Lined#`<init>`(). €@*<init>€*2
+"amyc/utils/Lined#`<init>`().(docs) €*docs€*<
+'amyc/utils/Lined#`<init>`().(separator) €*	separator€*&
+amyc/utils/Lined#docs. €*docs€*0
+amyc/utils/Lined#separator. €*	separator€*%
+amyc/utils/Lined#copy().*copy€*+
+amyc/utils/Lined#copy().(docs)*docs€*5
+#amyc/utils/Lined#copy().(separator)*	separator€*9
+"amyc/utils/Lined#copy$default$1().*copy$default$1€*9
+"amyc/utils/Lined#copy$default$2().*copy$default$2€*!
+amyc/utils/Lined#_1().*_1€*!
+amyc/utils/Lined#_2().*_2€*!
+amyc/utils/Lined.
+ *Lined€*'
+amyc/utils/Lined.apply().*apply€*,
+amyc/utils/Lined.apply().(docs)*docs€*6
+$amyc/utils/Lined.apply().(separator)*	separator€*+
+amyc/utils/Lined.unapply().*unapply€*,
+ amyc/utils/Lined.unapply().(x$1)*x$1€*-
+amyc/utils/Lined.toString().*toString€*S
+/amyc/utils/Lined.$lessinit$greater$default$2().*$lessinit$greater$default$2€*
+amyc/utils/Raw# €*Raw€*,
+amyc/utils/Raw#`<init>`(). €@*<init>€**
+amyc/utils/Raw#`<init>`().(s) €*s€*
+amyc/utils/Raw#s. €*s€*#
+amyc/utils/Raw#copy().*copy€*#
+amyc/utils/Raw#copy().(s)*s€*7
+ amyc/utils/Raw#copy$default$1().*copy$default$1€*
+amyc/utils/Raw#_1().*_1€*
+amyc/utils/Raw.
+ *Raw€*%
+amyc/utils/Raw.apply().*apply€*$
+amyc/utils/Raw.apply().(s)*s€*)
+amyc/utils/Raw.unapply().*unapply€**
+amyc/utils/Raw.unapply().(x$1)*x$1€*+
+amyc/utils/Raw.toString().*toString€*%
+amyc/utils/Stacked.
+ *Stacked€*)
+amyc/utils/Stacked.apply().*apply€*.
+!amyc/utils/Stacked.apply().(docs)*docs€*:
+'amyc/utils/Stacked.apply().(emptyLines)*
+emptyLines€*-
+amyc/utils/Stacked.unapply().*unapply€*.
+"amyc/utils/Stacked.unapply().(x$1)*x$1€*/
+amyc/utils/Stacked.toString().*toString€*U
+1amyc/utils/Stacked.$lessinit$greater$default$2().*$lessinit$greater$default$2€*+
+amyc/utils/Stacked.apply(+1).*apply€*0
+#amyc/utils/Stacked.apply(+1).(docs)*docs€2
+ amyc/utils/2
+ amyc/2"
+ amyc/utils/Document#2-
+ amyc/utils/Document#`<init>`().2*
+ 	amyc/utils/Document#`<:>`().21
+
+ #amyc/utils/Document#`<:>`().(other)2"
+ amyc/utils/Document#2'
+" "amyc/utils/Lined.apply().2
+ "amyc/utils/Lined.27
+' ')scala/collection/IterableFactory#apply().2!
+# 'scala/package.List.21
+. 3#amyc/utils/Document#`<:>`().(other)2*
+ amyc/utils/Document#print().2"
+ scala/Predef.String#2
+ 
+local020
+ "java/lang/StringBuffer#`<init>`().2%
+ java/lang/StringBuffer#2
+
+
+ local12
+
+
+ local22"
+
+
+ amyc/utils/Document#2
+
+"
+ %local32
+
+'
+ *
+scala/Int#2
+
+,
+ 1local42
+
+3
+ :scala/Boolean#2
+
+=
+ Ascala/Unit#2
+
+D
+ Elocal22'
+ amyc/utils/Raw.unapply().2
+ amyc/utils/Raw.2
+ local52#
+ scala/Boolean#`&&`().2
+ local424
+ &scala/collection/StringOps#nonEmpty().2+
+ scala/Predef.augmentString().2
+ local520
+$ *"java/lang/StringBuffer#append(+1).2
+! #local02/
+1 2!scala/collection/StringOps#`*`().2+
+, ,scala/Predef.augmentString().2
+3 6local320
+ "java/lang/StringBuffer#append(+1).2
+ 
+local02
+ local52,
+ amyc/utils/Indented.unapply().2"
+ amyc/utils/Indented.2
+ local62
+ local12
+ local62 
+ scala/Int#`+`(+4).2
+ local32
+ local42.
+  amyc/utils/Unindented.unapply().2$
+ amyc/utils/Unindented.2
+ local72$
+ scala/Predef.assume().2 
+ scala/Int#`>`(+3).2
+ local32
+ local12
+ local72 
+ scala/Int#`-`(+3).2
+ local32
+ local42)
+ amyc/utils/Lined.unapply().2
+ amyc/utils/Lined.2 
+ scala/package.Nil.2)
+ amyc/utils/Lined.unapply().2
+ amyc/utils/Lined.2
+ local82
+ local92
+ local122
+ $scala/collection/IterableOps#head().2
+ local82
+ local32
+ local428
+ *scala/collection/immutable/List#foreach().22
+ $scala/collection/IterableOps#tail().2
+ local82
+ local102
+
+ local12
+ local92
+ local32
+
+ local12
+ local102
+ local32+
+ amyc/utils/Stacked.unapply().2!
+ amyc/utils/Stacked.2 
+ scala/package.Nil.2+
+ amyc/utils/Stacked.unapply().2!
+ amyc/utils/Stacked.2
+ local112
+ #local122
+ local122
+ $scala/collection/IterableOps#head().2
+ local112
+ local32
+ local428
+ *scala/collection/immutable/List#foreach().22
+ $scala/collection/IterableOps#tail().2
+ local112
+ local1320
+ "java/lang/StringBuffer#append(+1).2
+
+ local02
+ local1220
+ #"java/lang/StringBuffer#append(+1).2
+ local02
+ 
+  local12
+   local132
+   local32
+$$ local120
+%% "java/lang/StringBuffer#toString().2
+%% local02"
+(( amyc/utils/Indented#2-
+(( amyc/utils/Indented#`<init>`().2"
+(( %amyc/utils/Document#2-
+(7( 7amyc/utils/Document#`<init>`().2"
+(/( 7amyc/utils/Document#2*
+(( amyc/utils/Indented#content.2$
+)) amyc/utils/Unindented#2/
+)) !amyc/utils/Unindented#`<init>`().2"
+)) 'amyc/utils/Document#2-
+)9) 9amyc/utils/Document#`<init>`().2"
+)1) 9amyc/utils/Document#2,
+)) amyc/utils/Unindented#content.2!
+** amyc/utils/Stacked#2,
+** amyc/utils/Stacked#`<init>`().2!
+** scala/package.List#2"
+** &amyc/utils/Document#2
+*5* <scala/Boolean#2-
+*V* Vamyc/utils/Document#`<init>`().2"
+*N* Vamyc/utils/Document#2&
+** amyc/utils/Stacked#docs.2,
+*)* 3amyc/utils/Stacked#emptyLines.2
+++ amyc/utils/Lined#2*
+++ amyc/utils/Lined#`<init>`().2!
+++ scala/package.List#2"
+++ $amyc/utils/Document#2"
++2+ :amyc/utils/Document#2-
++V+ Vamyc/utils/Document#`<init>`().2"
++N+ Vamyc/utils/Document#2$
+++ amyc/utils/Lined#docs.2)
++'+ 0amyc/utils/Lined#separator.2%
++@+ @amyc/utils/Raw.apply().2
++=+ @amyc/utils/Raw.2
+,, amyc/utils/Raw#2(
+,, amyc/utils/Raw#`<init>`().2"
+,, scala/Predef.String#2-
+,*, *amyc/utils/Document#`<init>`().2"
+,", *amyc/utils/Document#2
+,, amyc/utils/Raw#s.2!
+.. amyc/utils/Stacked.2+
+// amyc/utils/Stacked.apply(+1).21
+// #amyc/utils/Stacked.apply(+1).(docs)2"
+// amyc/utils/Document#2!
+// %amyc/utils/Stacked#2)
+/// /amyc/utils/Stacked.apply().2!
+/(/ /amyc/utils/Stacked.28
+/5/ ;*scala/collection/IterableOnceOps#toList().21
+/0/ 4#amyc/utils/Stacked.apply(+1).(docs)PZ FF3B0FAD7C4FED4E595F3C3CA9B0DA40
